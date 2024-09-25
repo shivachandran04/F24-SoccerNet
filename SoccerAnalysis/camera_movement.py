@@ -5,6 +5,9 @@ import os
 import sys
 sys.path.append('../')
 
+
+#hello 
+
 class CameraMovementEstimator():
     def __init__(self, frame):
         # Minimum distance to to ignore for camera movement (too small)
