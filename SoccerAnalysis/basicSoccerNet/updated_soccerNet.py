@@ -9,7 +9,7 @@ TARGET_VIDEO_PATH = "video_out.mp4"
 
 rf = Roboflow(api_key="")
 #project = rf.workspace().project("football-players-detection-3zvbc")
-model = get_model(model_id="football-players-detection-3zvbc/9")
+model = get_model(model_id="football-players-detection-3zvbc/9", api_key="")
 #model = project.version(9).model
 #print("model is 1111", model)
 
